@@ -3,7 +3,7 @@ from sys import argv
 from math import sqrt
 
 
-def factor():
+def factors():
     with open(argv[1]) as f:
         for line in f:
             num = int(line)
@@ -22,4 +22,4 @@ def factor():
                 print("{}={}*1".format(num, num))
 
 
-factor()
+factors()
